@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>art1</title>
+	<style>
+		body {
+			margin: 0 auto;
+			padding: 0;
+			font-family: sans-serif;
+		}
+		#menu{
+			height: 100px;
+			margin-left: 900px;
+			z-index: 2;
+		}
+		ul{
+			margin-top: 20px;
+			display: flex;
+			z-index: 3;
+		}
+		ul li {
+			list-style: none;
+			padding: 10px 30px;
+			color: gray;
+		}
+		ul li a {
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 0.8em;
+			color: #262626;
+			position: relative;
+		}
+		ul li a :before {
+			content: '';
+			width: 10px;
+			height: 5px;
+			background: #00bcd4;
+			position: absolute;
+			top: 100%;
+			left:0;
+			transition: .5s;
+		}
+		ul li:hover a:before{
+			width:50%;
+			transform: translateX(100%);
+			color: gray;
+		}
+		#textbox {
+			position: absolute;
+			top: 320px;
+			left: 150px;
+			width: 450px;
+		}
+		#textbox h1 {
+			font-size: 1em;
+		}
+		#art1 {
+			position: absolute;
+			top: 200px;
+			right: 150px;
+		}	
+	</style>
+</head>
+<body>
+	<div id="menu">	
+		<ul>
+			<li><a href="#">Exhibition</a></li>
+			<li><a href="#">Archiving</a></li>
+			<li><a href="#">Service</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">2018</a></li>
+		</ul>
+	</div>	
+	<div id="textbox">
+		<h1>전시회</h1>
+		<h2>그레뱅 뮤지엄</h2>
+		<p>기간 : 2015.07.30. (목) ~ 오픈런 <br>시간 : 09:30 ~ 19:00<br>장소 : 그레뱅뮤지엄<br>요금 : 대인 16,000원 소인/경로 13,000원 대학생 13,000원<br>설명 : '신문 1면의 인물들을 3D로 만들자'는 상상에서 시작된 그레뱅뮤지엄 누구나 한 번쯤은 상상하고 꿈꿔왔던 유명인사와의 만남과 더불어 특별한 공간 안에서의 색다른 체험은 관람객 들로 하여금 환상을 현실로 만나게 하는 그레뱅만의 특별한 가치가 될 것이다.
+		</p>
+	</div>
+	<img src="150730그레뱅뮤지엄.jpeg" id="art1"/>
+</body>
+</html>

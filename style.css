@@ -1,0 +1,563 @@
+body
+{
+	position: absolute;
+	top: -80px;
+	margin: 0;
+	margin-left:900px;
+	padding: 0;
+	font-family: sans-serif;
+	background: #fff;
+	
+}
+ul
+{
+	margin: 100px 50px;
+	padding: 0;
+	display: flex;
+}
+ul li
+{
+	list-style: none;
+	padding:10px 20px; 
+}	
+ul li a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1em;
+	color: #262626;
+	position: relative;
+}
+ul li a:before
+{
+	content: '';
+	width: 10px;
+	height: 5px;
+	background: #00bcd4;
+	position: absolute;
+	top: 100%;
+	left:0;
+	transition: .5s;
+}
+ul li:hover a:before
+{
+	width:50%;
+	transform: translateX(100%);
+}
+div
+{
+	position: absolute;
+	top : 300px;
+	right: 500px;
+}
+h1
+{
+	margin: 0 0 20px;
+	padding: 0;
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #fff;
+	-webkit-text-stroke:2px #000;
+}
+p
+{
+	margin: 0;
+	padding: 0;
+	font-size: 1em
+}
+#mainpic{
+	position: fixed;
+	top: 0px;
+	right: 150px;
+	width: 1200px;
+	height: 800px;
+	opacity: 0.2;
+	}
+#art1{
+	position: absolute;
+	top: 600px;
+	right: 800px;
+	width: 600px;
+	box-shadow: -5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+
+}
+#art1:hover {
+	transform: rotateZ(3deg);
+	box-shadow: -10px 10px 15px rgba(150,150,150,.5)
+}
+#art2{
+	position: absolute;
+	top: 600px;
+	left: -100px;
+	width: 600px;
+	box-shadow: 5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art2:hover {
+	transform: rotateZ(-3deg);
+	box-shadow: 10px 10px 15px rgba(150,150,150,.5)
+}
+#art3{
+	position: absolute;
+	top: 900px;
+	right: 800px;
+	width: 600px;
+	box-shadow: -5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art3:hover {
+	transform: rotateZ(3deg);
+	box-shadow: -10px 10px 15px rgba(150,150,150,.5)
+}
+#art4{
+	position: absolute;
+	top: 900px;
+	left: -100px;
+	width: 600px;
+	box-shadow: 5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art4:hover {
+	transform: rotateZ(-3deg);
+	box-shadow: 10px 10px 15px rgba(150,150,150,.5)
+}
+#art5{
+	position: absolute;
+	top: 1200px;
+	right: 800px;
+	width: 600px;
+	box-shadow: -5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art5:hover {
+	transform: rotateZ(3deg);
+	box-shadow: -10px 10px 15px rgba(150,150,150,.5)
+}
+#art6{
+	position: absolute;
+	top: 1200px;
+	left: -100px;
+	width: 600px;
+	box-shadow: 5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art6:hover {
+	transform: rotateZ(-3deg);
+	box-shadow: 10px 10px 15px rgba(150,150,150,.5)
+}
+#art7{
+	position: absolute;
+	top: 1500px;
+	right: 800px;
+	width: 600px;
+	box-shadow: -5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art7:hover {
+	transform: rotateZ(3deg);
+	box-shadow: -10px 10px 15px rgba(150,150,150,.5)
+}
+#art8{
+	position: absolute;
+	top: 1500px;
+	left: -100px;
+	width: 600px;
+	box-shadow: 5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art8:hover {
+	transform: rotateZ(-3deg);
+	box-shadow: 10px 10px 15px rgba(150,150,150,.5)
+}
+#art9{
+	position: absolute;
+	top: 1800px;
+	right: 800px;
+	width: 600px;
+	box-shadow: -5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art9:hover {
+	transform: rotateZ(3deg);
+	box-shadow: -10px 10px 15px rgba(150,150,150,.5)
+}
+#art10{
+	position: absolute;
+	top: 1800px;
+	left: -100px;
+	width: 600px;
+	box-shadow: 5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art10:hover {
+	transform: rotateZ(-3deg);
+	box-shadow: 10px 10px 15px rgba(150,150,150,.5)
+}
+#art11{
+	position: absolute;
+	top: 2100px;
+	right: 800px;
+	width: 600px;
+	box-shadow: -5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art11:hover {
+	transform: rotateZ(3deg);
+	box-shadow: -10px 10px 15px rgba(150,150,150,.5)
+}
+#art12{
+	position: absolute;
+	top: 2100px;
+	left: -100px;
+	width: 600px;
+	box-shadow: 5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art12:hover {
+	transform: rotateZ(-3deg);
+	box-shadow: 10px 10px 15px rgba(150,150,150,.5)
+}
+#art13{
+	position: absolute;
+	top: 2400px;
+	right: 800px;
+	width: 600px;
+	box-shadow: -5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art13:hover {
+	transform: rotateZ(3deg);
+	box-shadow: -10px 10px 15px rgba(150,150,150,.5)
+}
+#art14{
+	position: absolute;
+	top: 2400px;
+	left: -100px;
+	width: 600px;
+	box-shadow: 5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art14:hover {
+	transform: rotateZ(-3deg);
+	box-shadow: 10px 10px 15px rgba(150,150,150,.5)
+}
+#art15{
+	position: absolute;
+	top: 2700px;
+	right: 800px;
+	width: 600px;
+	box-shadow: -5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art15:hover {
+	transform: rotateZ(3deg);
+	box-shadow: -10px 10px 15px rgba(150,150,150,.5)
+}
+#art16{
+	position: absolute;
+	top: 2700px;
+	left: -100px;
+	width: 600px;
+	box-shadow: 5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art16:hover {
+	transform: rotateZ(-3deg);
+	box-shadow: 10px 10px 15px rgba(150,150,150,.5)
+}
+#art17{
+	position: absolute;
+	top: 3000px;
+	right: 800px;
+	width: 600px;
+	box-shadow: -5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art17:hover {
+	transform: rotateZ(3deg);
+	box-shadow: -10px 10px 15px rgba(150,150,150,.5)
+}
+#art18{
+	position: absolute;
+	top: 3000px;
+	left: -100px;
+	width: 600px;
+	box-shadow: 5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art18:hover {
+	transform: rotateZ(-3deg);
+	box-shadow: 10px 10px 15px rgba(150,150,150,.5)
+}
+#art19{
+	position: absolute;
+	top: 3300px;
+	right: 800px;
+	width: 600px;
+	box-shadow: -5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art19:hover {
+	transform: rotateZ(3deg);
+	box-shadow: -10px 10px 15px rgba(150,150,150,.5)
+}
+#art20{
+	position: absolute;
+	top: 3300px;
+	left: -100px;
+	width: 600px;
+	box-shadow: 5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art20:hover {
+	transform: rotateZ(-3deg);
+	box-shadow: 10px 10px 15px rgba(150,150,150,.5)
+}
+#art21{
+	position: absolute;
+	top: 3600px;
+	right: 800px;
+	width: 600px;
+	box-shadow: -5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art21:hover {
+	transform: rotateZ(3deg);
+	box-shadow: -10px 10px 15px rgba(150,150,150,.5)
+}
+#art22{
+	position: absolute;
+	top: 3600px;
+	left: -100px;
+	width: 600px;
+	box-shadow: 5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art22:hover {
+	transform: rotateZ(-3deg);
+	box-shadow: 10px 10px 15px rgba(150,150,150,.5)
+}
+#art23{
+	position: absolute;
+	top: 3900px;
+	right: 800px;
+	width: 600px;
+	box-shadow: -5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art23:hover {
+	transform: rotateZ(3deg);
+	box-shadow: -10px 10px 15px rgba(150,150,150,.5)
+}
+#art24{
+	position: absolute;
+	top: 3900px;
+	left: -100px;
+	width: 600px;
+	box-shadow: 5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art24:hover {
+	transform: rotateZ(-3deg);
+	box-shadow: 10px 10px 15px rgba(150,150,150,.5)
+}
+#art25{
+	position: absolute;
+	top: 4200px;
+	right: 800px;
+	width: 600px;
+	box-shadow: -5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art25:hover {
+	transform: rotateZ(3deg);
+	box-shadow: -10px 10px 15px rgba(150,150,150,.5)
+}
+#art26{
+	position: absolute;
+	top: 4200px;
+	left: -100px;
+	width: 600px;
+	box-shadow: 5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art26:hover {
+	transform: rotateZ(-3deg);
+	box-shadow: 10px 10px 15px rgba(150,150,150,.5)
+}
+#art27{
+	position: absolute;
+	top: 4500px;
+	right: 800px;
+	width: 600px;
+	box-shadow: -5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art27:hover {
+	transform: rotateZ(3deg);
+	box-shadow: -10px 10px 15px rgba(150,150,150,.5)
+}
+#art28{
+	position: absolute;
+	top: 4500px;
+	left: -100px;
+	width: 600px;
+	box-shadow: 5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art28:hover {
+	transform: rotateZ(-3deg);
+	box-shadow: 10px 10px 15px rgba(150,150,150,.5)
+}
+#art29{
+	position: absolute;
+	top: 4800px;
+	right: 800px;
+	width: 600px;
+	box-shadow: -5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art29:hover {
+	transform: rotateZ(3deg);
+	box-shadow: -10px 10px 15px rgba(150,150,150,.5)
+}
+#art30{
+	position: absolute;
+	top: 4800px;
+	left: -100px;
+	width: 600px;
+	box-shadow: 5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art30:hover {
+	transform: rotateZ(-3deg);
+	box-shadow: 10px 10px 15px rgba(150,150,150,.5)
+}
+#art31{
+	position: absolute;
+	top: 5100px;
+	right: 800px;
+	width: 600px;
+	box-shadow: -5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art31:hover {
+	transform: rotateZ(3deg);
+	box-shadow: -10px 10px 15px rgba(150,150,150,.5)
+}
+#art32{
+	position: absolute;
+	top: 5100px;
+	left: -100px;
+	width: 600px;
+	box-shadow: 5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art32:hover {
+	transform: rotateZ(-3deg);
+	box-shadow: 10px 10px 15px rgba(150,150,150,.5)
+}
+#art33{
+	position: absolute;
+	top: 5400px;
+	right: 800px;
+	width: 600px;
+	box-shadow: -5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art33:hover {
+	transform: rotateZ(3deg);
+	box-shadow: -10px 10px 15px rgba(150,150,150,.5)
+}
+#art34{
+	position: absolute;
+	top: 5400px;
+	left: -100px;
+	width: 600px;
+	box-shadow: 5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art34:hover {
+	transform: rotateZ(-3deg);
+	box-shadow: 10px 10px 15px rgba(150,150,150,.5)
+}
+#art35{
+	position: absolute;
+	top: 5700px;
+	right: 800px;
+	width: 600px;
+	box-shadow: -5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art35:hover {
+	transform: rotateZ(3deg);
+	box-shadow: -10px 10px 15px rgba(150,150,150,.5)
+}
+#art36{
+	position: absolute;
+	top: 5700px;
+	left: -100px;
+	width: 600px;
+	box-shadow: 5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art36:hover {
+	transform: rotateZ(-3deg);
+	box-shadow: 10px 10px 15px rgba(150,150,150,.5)
+}
+#art37{
+	position: absolute;
+	top: 6000px;
+	right: 800px;
+	width: 600px;
+	box-shadow: -5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art37:hover {
+	transform: rotateZ(3deg);
+	box-shadow: -10px 10px 15px rgba(150,150,150,.5)
+}
+#art38{
+	position: absolute;
+	top: 6000px;
+	left: -100px;
+	width: 600px;
+	box-shadow: 5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art38:hover {
+	transform: rotateZ(-3deg);
+	box-shadow: 10px 10px 15px rgba(150,150,150,.5)
+}
+#art39{
+	position: absolute;
+	top: 6300px;
+	right: 800px;
+	width: 600px;
+	box-shadow: -5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art39:hover {
+	transform: rotateZ(3deg);
+	box-shadow: -10px 10px 15px rgba(150,150,150,.5)
+}
+#art40{
+	position: absolute;
+	top: 6300px;
+	left: -100px;
+	width: 600px;
+	box-shadow: 5px 5px 10px rgba(150,150,150,.5);
+	transition: all 0.5s ease;
+}
+#art40:hover {
+	transform: rotateZ(-3deg);
+	box-shadow: 10px 10px 15px rgba(150,150,150,.5)
+}
+#box{
+	position: absolute;
+	top: 6600px;
+	left: -100px;
+	width: 600px;
+}
